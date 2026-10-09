@@ -1,0 +1,98 @@
+/*IMAGEN DE FONDO*/
+.workspace {
+    with: 100%;
+    max-width: 800px;
+    min-height: 400px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("C:\\Users\\DAW-11\\Documents\\LMSGI\\Ejercicios_Formato_texto\\formato_texto_Ej2\\imagen\\flor.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid #000;
+    padding-top: 20px;
+}
+
+/* ENCABEZADO SUPERIOR */
+.header-title {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #df3131;
+}
+
+/*SUBRAYADOR AMARILLO TÍTULO*/
+.badge-yellow {
+    background-color: #ffff00;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #000;
+}
+
+/*CENTRO DEL CONTROL IZQUIERDO*/
+.left-controls {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+   display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/*BOTÓN CAPITULO 4*/
+.btn-chapter{
+    background-color: #f1df38;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 12px;
+    border-radius: 2px;
+    width: fit-content;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/*TEXTO PREFORMATEADO*/
+.preformatted-text{
+    font-family: courier, monospace;
+   font-size: 12px;
+    line-height: 1.2;
+}
+
+/*ENLACE GOOGLE*/
+.btn-google{
+    background-color: #f1df38;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 12px;
+    border-radius: 2px;
+   
+}
+
+/*BARRA AZUL INFERIOR*/
+.blue-bar {
+    background-color: #007bff;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin-top: 300px;
+    border: 1px solid #000;
+}
+.blue-bar h3{
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-chapter {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #ebdb64;
+    text-decoration: none;
+    border-radius: 4px;  
+}
+
+.btn-chapter:hover {
+    background-color: #e0d8a0;
+}
